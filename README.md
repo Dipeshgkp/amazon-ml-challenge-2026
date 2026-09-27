@@ -30,7 +30,6 @@ Cloud_Ninjas_submission.zip
 └── Documentation_template.md      # comprehensive methodology write-up
 ```
 
-*(Note: Large output TSV files are excluded from git history due to size limits; see `code/business_entity_resolution/README.md` to regenerate them).*
 
 ---
 
