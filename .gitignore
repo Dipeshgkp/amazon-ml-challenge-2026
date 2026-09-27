@@ -5,8 +5,8 @@ __pycache__/
 .pytest_cache/
 
 # Large submission files & datasets (candidate_pairs.tsv is ~1.3 GB, exceeding GitHub's 100MB limit)
-output/
-*.tsv
+output/candidate_pairs.tsv
+dataset/
 *.zip
 *.parquet
 
