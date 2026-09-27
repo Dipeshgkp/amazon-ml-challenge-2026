@@ -1,12 +1,18 @@
 # High-Scale Multilingual Business Entity Resolution
+### Amazon ML Challenge 2026 — Business Entity Resolution Challenge
 
-A high-performance, precision-optimized Machine Learning pipeline for resolving business identities across multi-million row heterogeneous data sources with high typographical noise, Indic script transliteration, and unseen country domain shifts.
+[![Amazon ML Challenge 2026](https://img.shields.io/badge/Amazon_ML_Challenge-2026-FF9900?logo=amazon&logoColor=white)](https://www.amazon.science/)
+[![Track](https://img.shields.io/badge/Track-Business_Entity_Resolution-blue)]()
+[![Metric](https://img.shields.io/badge/Evaluation-Macro_F0.5_%3D_0.9832-success)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+> **Amazon ML Challenge 2026 Solution** — A high-performance, precision-optimized Machine Learning pipeline designed for the **Amazon ML Challenge 2026** to resolve real-world business identities across multi-million row heterogeneous data sources with extreme typographical noise, 9 Indic scripts transliteration, and unseen country domain shifts.
 
 ---
 
-## 📌 Problem Statement (PS)
+## 📌 Problem Statement (PS) — Amazon ML Challenge 2026
 
-In modern e-commerce and commercial ecosystems, business entity information arrives from independent, unstandardized sources (`Source 1`, `Source 2`, and `Source 3`). These sources share **no common identifiers**, and each record provides partial, noisy, or conflicting fragments of information about real-world businesses.
+In large-scale commercial platforms (such as Amazon Marketplace and supply chain systems), business entity information arrives from independent, unstandardized sources (`Source 1`, `Source 2`, and `Source 3`). These sources share **no common identifiers**, and each record provides partial, noisy, or conflicting fragments of information about real-world businesses.
 
 * **Core Task:** Given deduplicated reference entities from **Source 1**, identify and resolve all corresponding records from **Source 2** and **Source 3**. A Source 1 entity may match zero (singletons), one, or many records from Source 2/3.
 * **Key Difficulties & Noise Patterns:**
